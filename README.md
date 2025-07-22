@@ -3,13 +3,15 @@ This repository showcases the models built for a year-long project conducted at 
 
 • Developed a binary Logistic Regression pipeline in Python using Pandas, Scikit-learn, and NumPy, achieving up to 
 96% accuracy on the SAM-40 EEG dataset in distinguishing low vs. high stress.
-• Conducted signal preprocessing and FFT-based feature extraction, optimizing classification across delta–gamma EEG 
-bands and reducing model input to top EEG channels for performance.
+
+• Conducted signal preprocessing and FFT-based feature extraction, optimising classification across delta–gamma EEG 
+bands and reducing model input to the top EEG channels for performance.
+
 • Designed the mobile app UI in Figma and implemented front-end components in Android Studio and Flutter, 
-enhancing UX with personalized stress feedback, therapist links, and music therapy.
+enhancing UX with personalised stress feedback, therapist links, and music therapy.
 
 ## Project Overview
-This project focuses on analyzing EEG data to assess stress levels using Logistic Regression (LR) and Recurrent Neural Network (RNN) models. The models are designed to work with EEG samples from two types of headsets - Muse and Emotiv.
+This project focuses on analysing EEG data to assess stress levels using Logistic Regression (LR) and Recurrent Neural Network (RNN) models. The models are designed to work with EEG samples from two types of headsets - Muse and Emotiv.
 ## Models
 The classes which the models classified can be identified by the number in the filename - 1 signifies the model classified EEG samples which indicate non-stress and stress, while 2 signifies the model classified low stress and high stress. The models can be conjoined to form a pipeline architecture to classify EEG samples into three classes: No stress, low stress and high stress.
 <div align="center">
