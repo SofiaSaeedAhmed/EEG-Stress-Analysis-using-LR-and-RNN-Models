@@ -1,5 +1,13 @@
 # EEG-Stress-Analysis-using-LR-and-RNN-Models
 This repository showcases the models built for a year-long project conducted at the University of Nottingham Malaysia Campus.
+
+• Developed a binary Logistic Regression pipeline in Python using Pandas, Scikit-learn, and NumPy, achieving up to 
+96% accuracy on the SAM-40 EEG dataset in distinguishing low vs. high stress.
+• Conducted signal preprocessing and FFT-based feature extraction, optimizing classification across delta–gamma EEG 
+bands and reducing model input to top EEG channels for performance.
+• Designed the mobile app UI in Figma and implemented front-end components in Android Studio and Flutter, 
+enhancing UX with personalized stress feedback, therapist links, and music therapy.
+
 ## Project Overview
 This project focuses on analyzing EEG data to assess stress levels using Logistic Regression (LR) and Recurrent Neural Network (RNN) models. The models are designed to work with EEG samples from two types of headsets - Muse and Emotiv.
 ## Models
